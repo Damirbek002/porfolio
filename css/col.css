@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.col-1 {
+    padding: 0 16px;
+    width: 8.33%;
+}
+
+.col-2 {
+    padding: 0 16px;
+    width: 16.66%;
+}
+
+.col-3 {
+    padding: 0 16px;
+    width: 25%;
+}
+
+.col-4 {
+    padding: 0 16px;
+    width: 33.33%;
+}
+
+.col-5 {
+    padding: 0 16px;
+    width: 41.66%;
+}
+
+.col-6 {
+    padding: 0 16px;
+    width: 50%;
+}
+
+.col-7 {
+    padding: 0 16px;
+   width: 58.33%;
+}
+
+.col-8 {
+    padding: 0 16px;
+    width: 66.6%;
+}
+
+.col-9 {
+    padding: 0 16px;
+    width: 75%;
+}
+
+.col-10 {
+    padding: 0 16px;
+    width: 83.33%;
+}
+
+.col-11 {
+    padding: 0 16px;
+    width: 91.66%;
+}
+
+.col-12 {
+    padding: 0 16px;
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.order-first {
+    order: -1;
+}
+
+.order-last {
+    order: 12;
+}
